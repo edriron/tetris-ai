@@ -1,0 +1,27 @@
+# rgb colors
+WHITE = (255, 255, 255)
+RED = (200, 0, 0)
+BLUE = (0, 0, 255)
+GREEN = (0, 255, 255)
+YELLOW = (255, 255, 0)
+BROWN = (153, 76, 0)
+LIGHT_GREY = (231, 221, 202)
+ORANGE = (255, 165, 0)
+PINK = (255, 0, 255)  # (159, 43, 104) dark pink
+BLACK = (0, 0, 0)
+
+
+# game settings
+BLOCK_SIZE = 20  # 40
+SPEED = 20
+BOUNDARY = 3 * BLOCK_SIZE
+BORDER_COLOR = BLACK
+WIDTH = 200  # 520
+HEIGHT = 400  # 760
+
+
+# agent settings
+MAX_MEMORY = 30_000
+BATCH_SIZE = 512
+LR = 0.001
+DEBUGGING = False
